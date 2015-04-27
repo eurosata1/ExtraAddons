@@ -1,0 +1,71 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<!-- List of EuroSat plugins -->
+<xml>
+	<plugins cont="Plugins">
+	        <plugin name="livefootball">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-livefootball-oe2.0_5.7_all.ipk</url>
+        </plugin>                                                                    
+		<plugin name="e2speedtest">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-e2speedtest_0.0.1_mips32el.ipk</url>
+        </plugin>
+		<plugin name="pornhub_1.0_r0">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-pornhub_1.0_r0_all.ipk</url>
+        </plugin>
+        <plugin name="facebook_1.4">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-facebook_1.4_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Mediastream_OE2.0_v6.0">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/mediastream_OE2.0_v6.0_all.ipk</url>
+        </plugin>
+        <plugin name="Airplayer_0.4.1">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/airplayer_0.4.1_mips32el.ipk</url>
+        </plugin>
+        <plugin name="ResetPassword">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/john_1.7.2-3_mipsel.ipk</url>
+        </plugin>
+        <plugin name="Tsmedia-oe2.0_9.3">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-tsmedia-oe2.0_9.3_all.ipk</url>
+        </plugin>
+        <plugin name="Webradiofs_13.10">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-webradiofs_13.10_all.ipk</url>
+        </plugin>
+        <plugin name="Mediaportal_6.9.1">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-mediaportal_6.9.1_all.ipk</url>
+        </plugin>
+        <plugin name="Translator_0.9rc3">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-translator_0.9rc3_mips32el.ipk</url>
+        </plugin>
+        </plugins>
+           <plugins cont="Plugins Setting">
+		<plugin name="isettinge2-3.3.3-oe2.0">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-isettinge2-3.3.3-oe2.0-mips32el.ipk</url>
+        </plugin>
+        <plugin name="Vhannibal-autosetting-1.1-oe2.0">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/vhannibal-autosetting-1.1-oe2.0-mips32el.ipk</url>
+        </plugin>
+       <plugin name="Vhannibal-autosetting-1.2-oe2.0">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/vhannibal-autosetting-1.2-oe2.0-mips32el.ipk</url>
+        </plugin> 
+        </plugins>
+           <plugins cont="Driver">
+		<plugin name="Trialtuner_1.0.4b">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/trialtuner_1.0.4b_mipsel.ipk</url>
+        </plugin>
+        <plugin name="Trialtuner20b_dm800sev2_sr4_oe2.0">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/trialtuner20b_dm800sev2_sr4_oe2.ipk</url>
+        </plugin>
+       <plugin name="Trialtuner20b_dm800se_sr4_oe20">
+          <url>http://euro-sat-image.eu/extra-addons/Plugins/trialtuner20b_dm800se_sr4_oe20.ipk</url>
+        </plugin> 
+        </plugins>
+	<plugins cont="Skins">
+		<plugin name="">
+          <url></url>
+        </plugin>  
+       
+       
+		  
+	</plugins>
+	
+	
+</xml>
