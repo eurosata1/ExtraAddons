@@ -1,69 +1,559 @@
-<?xml version="1.0"  encoding="UTF-8" ?>
+﻿<?xml version="1.0"  encoding="UTF-8" ?>
 <!-- List of EuroSat plugins -->
 <xml>
 	<plugins cont="Plugins">
-	        <plugin name="livefootball">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-livefootball-oe2.0_5.7_all.ipk</url>
+	 <plugin name="Multiquickbutton_r2.8.4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-et-multiquickbutton_r2.8.4_mipsel.ipk</url>
+        </plugin>  
+        <plugin name="Bluray_1.5rc2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-bluray_1.5rc2_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Hdmi_Test_0.4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-hdmitest_0.4_mipsel.ipk</url>
         </plugin>                                                                    
-		<plugin name="e2speedtest">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-e2speedtest_0.0.1_mips32el.ipk</url>
+	<plugin name="E2speedtest">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-e2speedtest_0.0.1_mips32el.ipk</url>
         </plugin>
-		<plugin name="pornhub_1.0_r0">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-pornhub_1.0_r0_all.ipk</url>
-        </plugin>
-        <plugin name="facebook_1.4">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-facebook_1.4_mips32el.ipk</url>
-        </plugin>
-        <plugin name="Mediastream_OE2.0_v6.0">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/mediastream_OE2.0_v6.0_all.ipk</url>
+	<plugin name="Facebook_1.4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-facebook_1.4_mips32el.ipk</url>
         </plugin>
         <plugin name="Airplayer_0.4.1">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/airplayer_0.4.1_mips32el.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/airplayer_0.4.1_mips32el.ipk</url>
         </plugin>
         <plugin name="ResetPassword">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/john_1.7.2-3_mipsel.ipk</url>
-        </plugin>
-        <plugin name="Tsmedia-oe2.0_9.3">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-tsmedia-oe2.0_9.3_all.ipk</url>
-        </plugin>
-        <plugin name="Webradiofs_13.10">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-webradiofs_13.10_all.ipk</url>
-        </plugin>
-        <plugin name="Mediaportal_6.9.1">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-mediaportal_6.9.1_all.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/john_1.7.2-3_mipsel.ipk</url>
         </plugin>
         <plugin name="Translator_0.9rc3">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-translator_0.9rc3_mips32el.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-translator_0.9rc3_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Dflash_10.2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-dflash_10.2_all.ipk</url>
+        </plugin> 
+        <plugin name="Moviebrowser_3.6rc2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-moviebrowser_3.6rc2_mips32el.ipk</url>
+        </plugin> 
+        <plugin name="Openopera_1.0-r0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-openopera_1.0-r0_mips32el.ipk</url>
+        </plugin> 
+          <plugin name="Wikipedia_2.2rc5">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-extensions-wikipedia_2.2rc5_mips32el.ipk</url>
+         </plugin>
+         </plugins>
+	<plugins cont="Plugins EPG">
+	<plugin name="Cooltvguide_Coolman_V7.3.0">
+	<url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20EPG/enigma2-plugin-extensions-cooltvguide_Coolman_V7.3.0_all.ipk</url>
+	</plugin>
+         <plugin name="Merlin Epg">
+	  <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20EPG/enigma2-plugin-extensions-merlinepg_3.999+git4678+c8ebfba-r0_mips32el.ipk</url>
+	</plugin>
+   <plugin name="Merlin Epg Center">
+	  <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20EPG/enigma2-plugin-extensions-merlinepgcenter_3.999+git4678+c8ebfba-r0_mips32el.ipkk</url>
+	</plugin>
+   <plugin name="Movie Epg">
+	  <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20EPG/enigma2-plugin-extensions-movieepg_3.999+git4678+c8ebfba-r0_mips32el.ipk</url>
+	</plugin>
+   </plugins>
+       	<plugins cont="Plugins IPTV">
+	<plugin name="Acestreamplayer_1.0">
+	<url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20IPTV/enigma2-plugin-extensions-acestreamplayer_1.0_r1_all.ipk</url>
+	</plugin>
+	<plugin name="Arabicentertainment_2.4">
+	<url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20IPTV/enigma2-plugin-extensions-arabicentertainment_2.4_all.ipk</url>
+	</plugin>
+	<plugin name="Customsubservices_0.1.1">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-customsubservices_0.1.1_all.ipk</url>
+	</plugin>
+	<plugin name="Easymedia_vali">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-easymedia_vali.ipk</url>
+	</plugin>
+	<plugin name="Focusonline_0.8rc2">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-focusonline_0.8rc2_all.ipk</url>
+	</plugin>
+	<plugin name="Highlive_0.7">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-highlive_0.7_all.ipk</url>
+	</plugin>
+	<plugin name="Iplastart_OE1.6-OE2.0">
+	<url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20IPTV/enigma2-plugin-extensions-iplastart_OE1.6-OE2.0_all.ipk</url>
+	</plugin>
+	<plugin name="Iptvlistupdater_1.62.+git921+75de60a-r27">
+	<url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20IPTV/enigma2-plugin-extensions-iptvlistupdater_1.62.+git921+75de60a-r27_mips32el.ipk</url>
+	</plugin>
+	<plugin name="Iptvplayer_18.00.03.01">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-iptvplayer_18.00.03.01_all.ipk</url>
+	</plugin>
+	<plugin name="Kartinatv_2.4.1-r0">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-kartinatv_2.4.1-r0_all.ipk</url>
+	</plugin>
+	<plugin name="Kodidirect_1.0_r0">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-kodidirect_1.0_r0_all.ipk</url>
+	</plugin>
+	<plugin name="Nstreamplayer_0.4">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-nstreamplayer_0.4_mips32el.ipk</url>
+	</plugin>
+	<plugin name="Nstreamvod-python2.7_2.0">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-nstreamvod-python2.7_2.0_all.ipk</url>
+	</plugin>
+	<plugin name="Ondemand-4od-fix_openpli">
+	<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20IPTV/enigma2-plugin-extensions-ondemand-4od-fix_openpli_mips32el.ipk</url>
+	</plugin>
+        </plugins>
+           <plugins cont="Plugins Multimedia">
+           <plugin name="Mediaportal_6.9.1">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-mediaportal_6.9.1_all.ipk</url>
+        </plugin>
+        <plugin name="Mediastream_OE2.0_v6.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/mediastream_OE2.0_v6.0_all.ipk</url>
+        </plugin>
+        <plugin name="Mtv_0.1">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-mtv_0.1_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Muzutv_1.5rc4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-muzutv_1.5rc4_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Newtube_0.1a-r0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-newtube_0.1a-r0_all.ipk</url>
+        </plugin> 
+       	<plugin name="Pornhub_1.0_r0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-pornhub_1.0_r0_all.ipk</url>
+        </plugin>
+        <plugin name="Thetvdb_0.7-20120607-r1">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-thetvdb_0.7-20120607-r1_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Tsmedia-oe2.0_9.3">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-tsmedia-oe2.0_9.3_all.ipk</url>
+        </plugin>
+        <plugin name="Tvspielfilm_6.3rc7">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-tvspielfilm_6.3rc7_mips32el.ipk</url>
+        </plugin> 
+        <plugin name="Webradiofs_13.10">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/enigma2-plugin-extensions-webradiofs_13.10_all.ipk</url>
+        </plugin>
+        <plugin name="Youtube_1.0_r0_all.ipk">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Multimedia/youtube_1.0_r0_all.ipk</url>
         </plugin>
         </plugins>
-           <plugins cont="Plugins Setting">
-		<plugin name="isettinge2-3.3.3-oe2.0">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/enigma2-plugin-extensions-isettinge2-3.3.3-oe2.0-mips32el.ipk</url>
+        <plugins cont="Plugins Setting">
+        <plugin name="Isettinge2-3.3.3-oe2.0">
+       <url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20Settings/enigma2-plugin-extensions-isettinge2-3.3.3-oe2.0-mips32el.ipk</url>
         </plugin>
         <plugin name="Vhannibal-autosetting-1.1-oe2.0">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/vhannibal-autosetting-1.1-oe2.0-mips32el.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons//Plugins%20Settings/vhannibal-autosetting-1.1-oe2.0-mips32el.ipk</url>
         </plugin>
        <plugin name="Vhannibal-autosetting-1.2-oe2.0">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/vhannibal-autosetting-1.2-oe2.0-mips32el.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Settings/vhannibal-autosetting-1.2-oe2.0-mips32el.ipk</url>
         </plugin> 
+        <plugin name="Cyrussettings_1.0.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Settings/enigma2-plugin-extensions-cyrussettings_1.0.0_all.ipk</url>
+        </plugin> 
+        <plugin name="Settingsmaker_2.2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Settings/enigma2-plugin-extensions-settingsmaker_2.2_mips32el.ipk</url>
+        </plugin> 
+        <plugin name="Lcnscanner_1.0-r4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Settings/enigma2-plugin-systemplugins-lcnscanner_1.0-r4_mips32el.ipk</url>
+        </plugin>
         </plugins>
-           <plugins cont="Driver">
-		<plugin name="Trialtuner_1.0.4b">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/trialtuner_1.0.4b_mipsel.ipk</url>
+        <plugins cont="Plugins Sport">
+	        <plugin name="Livefootball">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Sport/enigma2-plugin-extensions-livefootball-oe2.0_5.7_all.ipk</url>
+        </plugin>                                                                    
+	<plugin name="Sport1ticker_0.4t">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Sport/enigma2-plugin-extensions-sport1ticker_0.4_all.ipk</url>
+        </plugin>
+	<plugin name="Sportmax_1.2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Sport/enigma2-plugin-extensions-sportmax_1.2_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Sportportal">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20Sport/enigma2-plugin-extensions-sportportal_2013_all.ipk</url>
+        </plugin>
+        </plugins>
+        <plugins cont="Driver TrialTuner">
+	<plugin name="Trialtuner_1.0.4b">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20TrialTuner/trialtuner_1.0.4b_mipsel.ipk</url>
         </plugin>
         <plugin name="Trialtuner20b_dm800sev2_sr4_oe2.0">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/trialtuner20b_dm800sev2_sr4_oe2.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20TrialTuner/trialtuner20b_dm800sev2_sr4_oe2.ipk</url>
         </plugin>
        <plugin name="Trialtuner20b_dm800se_sr4_oe20">
-          <url>http://euro-sat-image.eu/extra-addons/Plugins/trialtuner20b_dm800se_sr4_oe20.ipk</url>
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20/trialtuner20b_dm800se_sr4_oe20.ipk</url>
         </plugin> 
         </plugins>
-	<plugins cont="Skins">
+	<plugins cont="Skins all image">
+		<plugin name="Skin-XTAforME-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/Skin-XTAforME-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>  
+        <plugin name="Skin-XtrendNGHD-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/Skin-XtrendNGHD-MOD-By-RAED.ipk</url>
+        </plugin>  
+        <plugin name="Skin-aihdcontrolerpichmod_2.9">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-extensions-aihdcontrolerpichmod_2.9_all.ipk</url>
+        </plugin>  
+        <plugin name="Skin-ABC-HD-V1.1-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ABC-HD-V1.1-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Area-51-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Area-51-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Army-Purehd-DE-V2.1-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-skin-Army-Purehd-DE-V2.1-MOD-By-RAED.ipk</url>
+        </plugin> 
+        <plugin name="Skin-Army-WhiteB-v1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Army-WhiteB-v1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Black-Cat-V1.0-Conv-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Black-Cat-V1.0-Conv-MOD-By-RAED.ipk</url>
+        </plugin> 
+        <plugin name="Skin-Black-Fog-HD-v1.1-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Black-Fog-HD-v1.1-MOD-By-RAED.ipk</url>
+        </plugin> 
+        <plugin name="Skin-Blue-Experience-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Blue-Experience-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Blue-Gold-Glass-V1.0-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Blue-Gold-Glass-V1.0-By-RAED.ipk</url>
+        </plugin>  
+        <plugin name="Skin-ClassPlus-HD-v1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ClassPlus-HD-v1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Cube-v1.3-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Cube-v1.3-MOD-By-RAED.ipk</url>
+        </plugin> 
+        <plugin name="Skin-DarkSky-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-DarkSky-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Design-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Design-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-ET-Droid-HD-v1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ET-Droid-HD-v1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Elegance.HD-V2.1-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Elegance.HD-V2.1-MOD-By-RAED.ipk</url>
+        </plugin> 
+        <plugin name="Skin-Essential72-Blue-V2.2-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Essential72-Blue-V2.2-MOD-By-RAED.ipk</url>
+        </plugin> 
+        <plugin name="Skin-Evolution-SE-V1.4-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Evolution-SE-V1.4-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-GI-HD-BH-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-GI-HD-BH-V1.0-MOD-By-RAED.ipk</url>
+       </plugin>
+        <plugin name="Skin-GhostBlack-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-GhostBlack-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+         <plugin name="Skin-Gold-Star-Black_V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Gold-Star-Black_V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Grey-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Grey-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-HD-X1-v1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-HD-X1-v1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Kerni-HD1-V1.0-MOD-By-RAED">
+         <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Kerni-HD1-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Kerni-HD1R2Whitemod-V1.0-MOD-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Kerni-HD1R2Whitemod-V1.0-MOD-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Kerni.NN2.No2-MD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Kerni.NN2.No2-MD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-LN.HD-ME-V1.1-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-LN.HD-ME-V1.1-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-MX-HC2-v1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-MX-HC2-v1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-MX-HD4-V3.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-MX-HD4-V3.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-MX-X1-R-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-MX-X1-R-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-MX-X2-R-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-MX-X2-R-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Mahagoni-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Mahagoni-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-MeTrO-V2.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-MeTrO-V2.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Metallic-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Metallic-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-MetropolisHD-V1.0-By-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-MetropolisHD-V1.0-By-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Nemesis-GlassLine-VTI-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Nemesis-GlassLine-VTI-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Nou-Black-Elgato-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Nou-Black-Elgato-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Nou-HD-V2.4-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Nou-HD-V2.4-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-PBMCHD-V1.88-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-PBMCHD-V1.88-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-PKT-SilverHD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-PKT-SilverHD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Rihanna2-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Rihanna2-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Rihanna3-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Rihanna3-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Spider-Man-HD-V1.0-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Spider-Man-HD-V1.0-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-The-Beginning-HD-v1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-The-Beginning-HD-v1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Xmas2.HD-V1.1-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Xmas2.HD-V1.1-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-Adriatic32-turquoise_1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-adriatic32-turquoise_1.0_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Skin-Armypurehd_0.1_mod-by-adem">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-armypurehd_0.1_mod-by-adem_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-blackblue.me-v1">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-blackblue.me_20130921-v1_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-dmconcinnity-hd-ice-mod_v1.2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-dmconcinnity-hd-ice-mod_v1.2_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-eclipse-sr-hd-m-mod-pli_1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20imageenigma2-plugin-skin-eclipse-sr-hd-m-mod-pli_1.0_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Skin-elegancehd_1.0_">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-elegancehd_1.0_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-ilookhd-openpli_alpha">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ilookhd-openpli_alpha_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-lcars-1.0-MOD-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-lcars-1.0-MOD-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-mambas-hd_V3">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Plugins/enigma2-plugin-skin-mambas-hd_V3_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-metrixhd-mod-by-binicknich_0.9">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-metrixhd-mod-by-binicknich_0.9_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Skin-metrixhd-wpstyle-mod-pli_3.1a">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-metrixhd-wpstyle-mod-pli_3.1a_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-Metallic-HD-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-mymetrix_furkanb_mod_0.1_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Skin-mymetrix_furkanb_mod_0.1">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-Metallic-HD-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-om-whiteline_1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-om-whiteline_1.0_mips32el.ipk</url>
+        </plugin>
+        <plugin name="Skin-pd1loi-hd-full-hd_2.4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-pd1loi-hd-full-hd_2.4_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-pd1loi_1.4">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-pd1loi_1.4_mipsel.ipk</url>
+        </plugin>
+        <plugin name="Skin-pimp-my-pli-hd-by-talbs_2.74">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-pimp-my-pli-hd-by-talbs_2.74_all.ipk</url>
+        </plugin>
+        <plugin name="Skin-pli-hd-talbs-mod-shd-picon_0.2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-pli-hd-talbs-mod-shd-picon_0.2_all.ipk
+</url>
+        </plugin>
+        <plugin name="Skin-ramimaher-12-V1.0-MOD-By-RAED">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ramimaher-12-V1.0-MOD-By-RAED.ipk</url>
+        </plugin>
+        <plugin name="Skin-ramimaher..-17-._1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ramimaher..-17-._1.0._all.ipk</url>
+        </plugin>
+        <plugin name="Skin-ramimaher..-18-._1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ramimaher..-18-._1.0._all.ipk</url>
+        </plugin>
+ <plugin name="Skin-ramimaher..-21.._1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ramimaher..-21.._1.0._all.ipk</url>
+        </plugin>
+ <plugin name="Skin-ramimaher..-gb3._2.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ramimaher..-gb3._2.0._all.ipk</url>
+        </plugin> 
+<plugin name="Skin-ramimaher_20130414.r3">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-ramimaher_20130414.r3_all.ipk</url>
+        </plugin>
+ <plugin name="Skin-red-hd-rossi2000-v1_27.05.14">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-red-hd-rossi2000-v1_27.05.14_all.ipk</url>
+        </plugin>
+ <plugin name="Skin-spark-v1_mod-by-mamba65">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-spark-v1_mod-by-mamba65_all.ipk</url>
+        </plugin>
+ <plugin name="Skin-swain-hd_SR-OpenPLi">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-swain-hd_SR-OpenPLi_mips32el.ipk</url>
+        </plugin>
+ <plugin name="Skin-xta-v1_mod-by-mamba65">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin-xta-v1_mod-by-mamba65_all.ipk</url>
+        </plugin>
+ <plugin name="Skin_MB65-HD-V2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin_MB65-HD-V2_all.ipk</url>
+        </plugin>
+ <plugin name="Skin_Nemesis-HD-by-mamba65">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin_Nemesis-HD-by-mamba65_all.ipk</url>
+        </plugin>
+ <plugin name="Skin_WM-HD">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin_WM-HD_all.ipk</url>
+        </plugin>
+ <plugin name="Skin_White-HD-by-mamba65">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skin_White-HD-by-mamba65_all.ipk</url>
+        </plugin>
+ <plugin name="Skins-metrixhd-mod_OpenPLi">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skins-metrixhd-mod_OpenPLi_mips32el.ipk</url>
+        </plugin>
+ <plugin name="Skins-pli-hd-m-mod_2.2">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skins-pli-hd-m-mod_2.2_mipsel.ipk</url>
+        </plugin>
+ <plugin name="Skins_Mambas_HD_V6">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skins_Mambas_HD_V6_all.ipk</url>
+        </plugin>
+ <plugin name="Skins_Mambas_HD_V7">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-plugin-skins_Mambas_HD_V7_all.ipk</url>
+        </plugin>
+ <plugin name="Skin-black-white-pli-image_1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-skin-black-white-pli-image_1.0_mipsel.ipk</url>
+        </plugin>
+ <plugin name="Skin-blue-glass-hdblack_0.1">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-skin-blue-glass-hdblack_0.1_all.ipk</url>
+        </plugin>
+ <plugin name="Skin-hdglass16_9.40">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/enigma2-skin-hdglass16_9.40_all.ipk</url>
+        </plugin>
+ <plugin name="Skin-Revolution-black-hd-m-mod_1.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/revolution-black-hd-m-mod_1.0_mipsel.ipk</url>
+        </plugin>
+ <plugin name="Skins-dmconcinnity-hd-m-mod-pli_3.0">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Skins%20all%20image/skins-dmconcinnity-hd-m-mod-pli_3.0_mips32el.ipk</url>
+        </plugin>
+        </plugins>
+	<plugins cont="Picon mmark">
+		<plugin name="Picons-50x30.tr-13e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-50x30.tr-13e.ipk</url>
+		</plugin>
+		<plugin name="Picons-50x30.tr-19e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-50x30.tr-19e.ipk</url>
+		</plugin>
+		<plugin name="Picons-50x30.tr-13e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-50x30.tr-13e.ipk</url>
+		</plugin>
+		<plugin name="Picons-50x30.tr-19e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-50x30.tr-19e.ipk</url>
+		</plugin>
+		<plugin name="Picons-50x30.tr-all">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20mmark/enigma2-plugin-picons-50x30.tr-all.ipk</url>
+		</plugin>
+		<plugin name="Picons-50x30.tr-19e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-50x30.tr-19e.ipk</url>
+		</plugin>
+		<plugin name="Picons-50x30.tr-dtt">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-50x30.tr-dtt.ipk</url>
+		</plugin>
+		<plugin name="Picons-100x60.tr-13e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-100x60.tr-13e.ipk</url>
+		</plugin>
+		<plugin name="Picons-100x60.tr-19e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-100x60.tr-19e.ipk</url>
+		</plugin>
+		<plugin name="Picons-100x60.tr-dtt">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-100x60.tr-dtt.ipk</url>
+		</plugin>
+		<plugin name="Picons-100x60.tr">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-100x60.tr-all.ipk</url>
+		</plugin>
+		<plugin name="Picons-100x60.tr-dtt">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-100x60.tr-dtt.ipk</url>
+		</plugin>
+		<plugin name="Picons-130x80.tr-13e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-130x80.tr-13e.ipk</url>
+		</plugin>
+		<plugin name="Picons-130x80.tr-19e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-130x80.tr-19e.ipk</url>
+		</plugin>
+		<plugin name="Picons-130x80.tr-all">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-130x80.tr-all.ipk</url>
+		</plugin>
+		<plugin name="Picons-130x80.tr-dtt">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20mmark/enigma2-plugin-picons-130x80.tr-dtt.ipk</url>
+		</plugin>
+		<plugin name="Picons-220x132.tr-13e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Plugins%20mmark/enigma2-plugin-picons-220x132.tr-13e.ipk</url>
+		</plugin>
+		<plugin name="Picons-220x132.tr-19e">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-220x132.tr-19e.ipk</url>
+		</plugin>
+		<plugin name="Picons-220x132.tr-all">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-220x132.tr-all.ipk</url>
+		</plugin>
+		<plugin name="Picons-220x132.tr-dtt">
+			<url>http://www.eurosatimage.grn.cc/extra-addons/Picon%20mmark/enigma2-plugin-picons-220x132.tr-dtt.ipk</url>
+                </plugin>
+                </plugins>
+		<plugins cont="Picon">
+	    <plugin name="Picons-100x60.black-white">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-100x60.black-white_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-100x60.blue-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-100x60.blue-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-100x60.reflection-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-100x60.reflection-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-100x60.transparent-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-100x60.transparent-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-100x60.transparent-white">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-100x60.transparent-white_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-100x60.white-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-100x60.white-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-220x132.black-white">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.black-white_2015-04-24--11-52-32_all.ipk</url>
+        </plugin> 
+        <plugin name="Picons-220x132.blue-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.blue-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin> 
+        <plugin name="Picons-220x132.reflection-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.reflection-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin> 
+        <plugin name="Picons-220x132.transparent-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.transparent-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin> 
+        <plugin name="Picons-220x132.transparent-black-nopadding">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.transparent-black-nopadding_2015-04-24--11-52-32_all.ipk</url>
+        </plugin> 
+        <plugin name="Picons-220x132.white-black">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.white-black_2015-04-24--11-52-32_all.ipk</url>
+        </plugin> 
+        <plugin name="Picons-220x132.transparent-white-nopadding">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.transparent-white-nopadding_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-220x132.transparent-white">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-220x132.transparent-white_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>  
+        <plugin name="Picons-400x240.transparent-white-nopadding">
+          <url>http://www.eurosatimage.grn.cc/extra-addons/Picon/enigma2-plugin-picons-400x240.transparent-white-nopadding_2015-04-24--11-52-32_all.ipk</url>
+        </plugin>
+        </plugins>
+	<plugins cont="Bootlogo">
 		<plugin name="">
           <url></url>
         </plugin>  
-       
-       
 		  
 	</plugins>
 	

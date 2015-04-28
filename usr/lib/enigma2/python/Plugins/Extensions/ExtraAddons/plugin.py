@@ -13,7 +13,7 @@ import urllib
 from Components.Label import Label
 
 class Getipklist(Screen):
-    skin = '\n\t\t<screen position="center,center" size="600,400" title="ExtraAddons" >\n\t\t\t\n                                       <widget name="list" position="50,20" size="500,300" scrollbarMode="showOnDemand" />\n\n\t\t\t\n\t\t\t<eLabel position="70,100" zPosition="-1" size="100,69" backgroundColor="#222222" />\n\t\t\t<widget name="info" position="150,50" zPosition="4" size="300,300" font="Regular;24" foregroundColor="#ffffff" transparent="1" halign="center" valign="center" />\n\t\t</screen>'
+    skin = '\n\t\t<screen position="center,center" size="600,400" title="ExtraAddons" >\n\t\t\t\n                                       <widget name="list" position="50,20" size="500,300" scrollbarMode="showOnDemand" />\n\n\t\t\t\n\t\t\t<eLabel position="70,100" zPosition="-1" size="100,69" backgroundColor="#222222" />\n\t\t\t<widget name="info" position="150,50" zPosition="4" size="300,300" font="Regular;24" foregroundColor="#ffffff" transparent="1" halign="center" valign="center" />\n\t                  <ePixmap position="5,350" zPosition="4" size="590,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/about1.png" transparent="1" alphatest="on" />\n        \t\n\t\t</screen>'
 
     def __init__(self, session):
         self.skin = Getipklist.skin
@@ -27,7 +27,7 @@ class Getipklist(Screen):
 
     def openTest(self):
         self['info'].setText('Downloading list...')
-        xurl = 'http://www.euro-sat-image.eu/paneladdons.xml'
+        xurl = 'http://www.eurosatimage.grn.cc/paneladdons.xml'
         print 'xurl =', xurl
         xdest = '/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/paneladdons.xml'
         print 'xdest =', xdest
