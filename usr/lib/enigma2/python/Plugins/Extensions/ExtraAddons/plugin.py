@@ -27,7 +27,7 @@ class Getipklist(Screen):
 
     def openTest(self):
         self['info'].setText('Downloading list...')
-        xurl = 'http://www.eurosatimage.grn.cc/paneladdons.xml'
+        xurl = 'http://www.euro-sat-image.com/paneladdons.xml'
         print 'xurl =', xurl
         xdest = '/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/paneladdons.xml'
         print 'xdest =', xdest
