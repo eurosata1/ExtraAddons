@@ -13,7 +13,7 @@ import urllib
 from Components.Label import Label
 
 class Getipklist(Screen):
-    skin = '\n\t\t<screen position="center,center" size="600,400" title="ExtraAddons" >\n\t\t\t\n                                       <widget name="list" position="50,20" size="500,300" scrollbarMode="showOnDemand" />\n\n\t\t\t\n\t\t\t<eLabel position="70,100" zPosition="-1" size="100,69" backgroundColor="#222222" />\n\t\t\t<widget name="info" position="150,50" zPosition="4" size="300,300" font="Regular;24" foregroundColor="#ffffff" transparent="1" halign="center" valign="center" />\n\t                  <ePixmap position="5,350" zPosition="4" size="590,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/about1.png" transparent="1" alphatest="on" />\n        \t\n\t\t</screen>'
+    skin = '\n\t\t<screen position="center,center" size="955,400" title="ExtraAddons" >\n\t\t\t\n                                       <widget name="list" position="50,20" size="500,300" scrollbarMode="showOnDemand" />\n\n\t\t\t\n\t\t\t<eLabel position="70,100" zPosition="-1" size="100,69" backgroundColor="#222222" />\n\t\t\t<widget name="info" position="150,50" zPosition="4" size="300,300" font="Regular;24" foregroundColor="#ffffff" transparent="1" halign="center" valign="center" />\n\t                  <ePixmap position="5,365" zPosition="4" size="590,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/about.png" transparent="1" alphatest="on" />\n\t\n\t    <ePixmap position="580,center" zPosition="2" size="400,400" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/eurosatlogo.png" transparent="1" alphatest="on" />\n\t\n\t\t</screen>'
 
     def __init__(self, session):
         self.skin = Getipklist.skin
@@ -64,7 +64,7 @@ class Getipklist(Screen):
 
 
 class SelectCountry(Screen):
-    skin = '\n\t\t<screen position="center,center" size="600,430" title="ExtraAddons" >\n\t\t\t  <widget name="countrymenu" position="10,0" size="550,380" scrollbarMode="showOnDemand" />\n\t                  <ePixmap position="5,390" zPosition="4" size="590,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/about.png" transparent="1" alphatest="on" />\n        \t</screen>\n\t\t'
+    skin = '\n\t\t<screen position="center,center" size="950,430" title="ExtraAddons" >\n\t\t\t  <widget name="countrymenu" position="10,0" size="500,380" scrollbarMode="showOnDemand" />\n\t                  <ePixmap position="5,395" zPosition="4" size="590,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/about.png" transparent="1" alphatest="on" />\n\t           <ePixmap position="580,center" zPosition="2" size="400,400" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddons/eurosatlogo.png" transparent="1" alphatest="on" />\n\t</screen>\n\t\t'
 
     def __init__(self, session, xmlparse, selection):
         self.skin = SelectCountry.skin
